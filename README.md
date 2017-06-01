@@ -26,5 +26,3 @@ $ git push origin master
 For more information about using Play and Scala on drie:
 
 - [Play and Scala on drie](https://docs.drie.co)
-
-e  mee
