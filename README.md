@@ -1,37 +1,29 @@
 # scala/play-getting-started
 
-A barebones Scala app (using the Play framework), which can easily be deployed to Heroku.  
+A barebones Scala app (using the Play framework), which can easily be deployed to drie.  
 
-This application support the [Getting Started with Scala/Play on Heroku](https://devcenter.heroku.com/articles/getting-started-with-scala) article - check it out.
 
 ## Running Locally
 
-Make sure you have Play and sbt installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+Make sure you have Play and sbt installed.
 
 ```sh
-$ git clone https://github.com/heroku/scala-getting-started.git
-$ cd scala-getting-started
+$ git clone https://github.com/drie-demo-1/drie-scala-play-starter-app.git
+$ cd drie-scala-play-starter-app
 $ sbt compile stage
-$ heroku local
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+## Deploying to drie
 
 ```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
+$ git push origin master
 ```
-
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Documentation
 
-For more information about using Play and Scala on Heroku, see these Dev Center articles:
+For more information about using Play and Scala on drie:
 
-- [Play and Scala on Heroku](https://devcenter.heroku.com/categories/language-support#scala-and-play)
+- [Play and Scala on drie](https://docs.drie.co)
 
